@@ -1,0 +1,25 @@
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.navbar{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand--logo{
+    display: inline-block;
+    width: 122px;
+    margin-right: 274px;
+}
+.navbar-brand--log img{
+    width: 100%;
+}
+
+.navbar-content{
+    display: "inline-block";
+}
+
