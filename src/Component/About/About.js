@@ -5,7 +5,7 @@ import logo from '../../Images/logo-1.png'
 const About = () => {
     return (
         <div className='flex items-center mt-[120px] relative top-0 left-0 right-0 -z-50'>
-            <div className='w-[1320px] pl-[100px] pt-[180px] pr-[180px] bg-[#181A23] pb-[595px] rounded-r-[24px]'>
+            <div className='w-full bg-[#181A23] text-center px-[64px] pt-[120px] pb-[200px] lg:w-[68%] lg:pl-[5%] lg:pt-[9%] lg:pr-[12%] lg:pb-[31%] lg:rounded-r-[24px] lg:text-left '>
                 <div>
                     <h3 className='text-[#fff] text-[58px]'>About us</h3>
                 </div>
@@ -15,7 +15,7 @@ const About = () => {
                         <br></br>
                         <br></br>
                     </p>
-                    <p className='text-[#fff] text-[28px] tracking-[.02px] pr-[120px]'>
+                    <p className='text-[#fff] text-[28px] tracking-[.02px] xl:pr-[6%]'>
                         KMT is a leading provider of outsourced services, business development consulting and regulatory affairs for Swedish / Scandinavian and European Life Science companies growing
                         their presence in the Middle East& Africa.
                         <br></br>
@@ -26,12 +26,13 @@ const About = () => {
                     </p>
                 </div>
 
-                <div className='absolute w-[362px] h-[362px] right-[500px] top-[835px] z-50'>
+                <div className='absolute top-[-50px] left-[40%] right-[40%] w-[20%] h-[20%] xl:right-[26%] xl:top-[40%] xl:left-[55%]  z-50'>
                     <img className='w-full' src={logo}></img>
                 </div>
-                <div className='absolute w-[625px] top-[200px] right-[100px]'>
+                {/* <div className='absolute w-[32%] top-[10%] right-[10%]'> */}
+                <div className='w-full mt-[64px] xl:absolute xl:w-[32%] xl:top-[10%] xl:right-[10%]'>
                     <div>
-                        <img className='w-full h-[835px]' src={image} alt='kadriMedTech'></img>
+                        <img className='w-full h-[43%]' src={image} alt='kadriMedTech'></img>
                     </div>
                 </div>
             </div>

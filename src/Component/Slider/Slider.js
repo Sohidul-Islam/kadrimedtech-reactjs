@@ -16,24 +16,24 @@ const Slider = ({navItem}) => {
            
             <div className=' top-0 left-0 right-0 -z-10'>
             <Navbar navItem={navItem}/>
-            <div className='w-full h-[100%]'>
+            <div className='w-[100vw] h-[100%]'>
                 {
                     sliderImages.map((image) => {
                         return <div>
                             <div>
-                                <img className='w-full' key={image.id} src={image.path}></img>
+                                <img className='w-[100vw]' key={image.id} src={image.path}></img>
                             </div>
-                            <div className='absolute bottom-[40px] max-w-[1050px] left-[108px]'>
+                            <div className='absolute bottom-[40px] xl:max-w-[1000px] 2xl:max-w-[1115px] left-[108px]'>
                                 <div className='flex justify-center items-center'>
-                                    <div className='w-[24px] rounded-[110px] h-[570px] bg-[#D9D9D93D]/25 mr-[68px]'>
+                                    <div className='w-[8px] xl:w-[16px] 2xl:w-[24px] rounded-[110px] h-[100px] lg:h-[150px] xl:h-[350px] 2xl:h-[570px] bg-[#D9D9D93D]/25 mr-[16px] lg:mr-[32px] xl:mr-[50px] 2xl:mr-[68px]'>
                                         <div className='w-full h-[33%] bg-[#ffff] rounded-md'>
                                         </div>
                                     </div>
-                                    <div className=' pr-4 py-4'>
+                                    <div className=' pr-4 py-4 max-w-[600px] xl:max-w-[950px] 2xl:max-w-[1050px]'>
                                         <div className='text-[#fff]'>
-                                            <h3 className='text-[92px]'>Kadri<span className='text-[#B2BBDB]'>Med</span><span className='text-[#E9D3A1]'>Tech</span></h3>
+                                            <h3 className='text-[24px] md-text-[32px] lg:text-[40px] xl:text-[60px] 2xl:text-[92px]'>Kadri<span className='text-[#B2BBDB]'>Med</span><span className='text-[#E9D3A1]'>Tech</span></h3>
                                         </div>
-                                        <p className='text-[32px] text-[#fff]'>{image.desc}</p>
+                                        <p className='text-[14px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[32px] text-[#fff]'>{image.desc}</p>
                                     </div>
                                 </div>
                             </div>

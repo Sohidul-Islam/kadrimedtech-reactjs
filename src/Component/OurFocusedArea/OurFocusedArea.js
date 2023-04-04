@@ -5,8 +5,9 @@ function OurFocusedArea() {
     return (
         <>
             {/* left */}
-            <div className='flex mt-[120px]'>
-                <div className='bg-[#FFF0D0] pl-[100px] pt-[130px] pr-[452px] pb-[130px] inline-block rounded-r-[24px] w-[1320px]'>
+            <div className='flex flex-col justify-center items-center xl:flex-row mt-[120px]'>
+                <div className='bg-[#FFF0D0] w-full px-[40px] py-[60px] text-center'>
+                {/* <div className='bg-[#FFF0D0] pl-[5%] pt-[6.8%] pr-[23.5%] pb-[6.8%] inline-block rounded-r-[24px] w-[68%]'> */}
                     <div>
                         <h1 className='font-[700] text-[58px]'>Our Focus Areas</h1>
                     </div>
@@ -30,7 +31,8 @@ function OurFocusedArea() {
                     </div>
                 </div>
 
-                <div className='w-[700px] mt-[100px] ml-[-250px]'>
+                {/* <div className='w-[36%] mt-[100px] ml-[-250px]'> */}
+                <div className='w-full mt-[100px]'>
                     <img className='w-full' src={image1}></img>
                 </div>
             </div>
