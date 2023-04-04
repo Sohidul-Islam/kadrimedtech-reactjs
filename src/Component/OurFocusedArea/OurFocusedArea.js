@@ -6,7 +6,7 @@ function OurFocusedArea() {
         <>
             {/* left */}
             <div className='flex flex-col justify-center items-center xl:flex-row mt-[120px]'>
-                <div className='bg-[#FFF0D0] w-full px-[40px] py-[60px] text-center'>
+                <div className='bg-[#FFF0D0] w-full px-[60px] py-[100px] text-center    xl:pl-[5%] xl:pt-[6.8%] xl:pr-[23.5%] xl:pb-[6.8%] xl:inline-block xl:rounded-r-[24px] xl:w-[68%]'>
                 {/* <div className='bg-[#FFF0D0] pl-[5%] pt-[6.8%] pr-[23.5%] pb-[6.8%] inline-block rounded-r-[24px] w-[68%]'> */}
                     <div>
                         <h1 className='font-[700] text-[58px]'>Our Focus Areas</h1>
@@ -32,17 +32,19 @@ function OurFocusedArea() {
                 </div>
 
                 {/* <div className='w-[36%] mt-[100px] ml-[-250px]'> */}
-                <div className='w-full mt-[100px]'>
+                <div className='w-[80%] mx-auto mt-[-40px] xl:w-[36%] xl:mt-[100px] xl:ml-[-250px]'>
                     <img className='w-full' src={image1}></img>
                 </div>
             </div>
             {/* right */}
-            <div className='flex justify-center items-center mt-[-50px]'>
-                <div className='mr-[40px] h-[400px]'>
+            {/* <div className='flex justify-center items-center mt-[-50px]'> */}
+            <div className='flex flex-col justify-center items-center mx-auto mt-[64px] xl:flex-row xl:mt-[-50px]'>
+                <div className='mr-[40px]  xl:h-[400px]'>
                     <img className='h-full' src={image2}></img>
                 </div>
 
-                <div className='bg-[#F2F2F2] rounded-l-[24px] w-[1146px] px-[110px] py-[80px] border-4 border-[#fff]'>
+                <div className='bg-[#F2F2F2] w-full px-[64px] py-[100px]'>
+                {/* <div className='bg-[#F2F2F2] rounded-l-[24px] w-[60%] px-[110px] py-[80px] border-4 border-[#fff]'> */}
                     <p className='text-[24px]'>
                         Navigating the cultural requirements for doing business in the region
                         <br></br>

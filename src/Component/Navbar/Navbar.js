@@ -19,7 +19,7 @@ const Navbar = ({ navItem }) => {
 
                 <div>
                     {/* <button><Bars3Icon className='sm:visible xl:hidden w-[60px] text-[#fff] ' /></button> */}
-                    <button onClick={()=>setOpen(true)}><Bars3Icon className='sm:visible xl:hidden w-[60px] text-[#fff] absolute right-[-100%] top-[0px]'/></button>
+                    <button onClick={()=>setOpen(true)}><Bars3Icon className='sm:visible xl:hidden w-[60px] text-[#fff] top-[0px]'/></button>
                     {open && <div className={`fixed top-0 left-0 right-0 bottom-0  ${open ?'w-[100vw] h-[100vh] opacity-100' : 'w-[0vw] h-[0vh] opacity-0'} bg-[#181A23] duration-10000 z-50`}>
                         <button onClick={()=>setOpen(false)}><XMarkIcon className='sm:visible xl:hidden w-[60px] text-[#fff] m-[36px]' /></button>
                         <img className='w-[200px] mx-auto mb-[32px]' src={logo1}></img>

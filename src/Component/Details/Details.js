@@ -4,7 +4,7 @@ import image1 from '../../Images/image-1.png'
 const Details = () => {
   return (
   //  <div className='flex-col justify-center md:flex-col md:justify-end items-center mt-[120px]'>
-   <div className='flex flex-col md:flex-row justify-center items-center'>
+   <div className='flex flex-col md:flex-row justify-center md:justify-end items-center'>
     <div className='w-full md:w-[40%] md:mr-[-15%]'>
             <img className='w-full' src={image1} alt="kadriMedTech"></img>
     </div>

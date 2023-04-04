@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhyWorkWithUs = () => {
     return (
-        <div className='bg-[#F2F2F2] flex justify-center w-full mt-[120px]'>
+        <div className='bg-[#F2F2F2] w-full mt-[120px]'>
             <div className='h-full w-[100%] lg:w-[40%] bg-[#181A23] inline-block'>
             {/* <div className='h-full w-[40%] bg-[#181A23] inline-block'> */}
                 <div className="p-[100px]">
