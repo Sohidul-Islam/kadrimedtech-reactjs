@@ -3,7 +3,7 @@ import React from 'react'
 const FeatureCard = ({feature}) => {
 
   return (
-        <div className={`mx-[50px] bg-[#fff] rounded-[24px] xl:mt-[${feature.id%2===0 ? "-100":"-200"}px] mt-[${feature.id%2===0 ? "40":"-100"}px]`}>
+        <div className={`mx-[50px] bg-[#fff] rounded-[24px] xl:mt-[${feature?.id%2===0 ? "-1000":"-200"}px] mt-[${feature?.id%2===0 ? "40":"-100"}px]`}>
         <div>
             <div className='flex-col justify-center align-center text-center max-w-[688px] rounded-sm shadow-lg p-[40px]'>
                 <div className='w-[200px] h-[200px] mx-auto mb-4'>

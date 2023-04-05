@@ -47,12 +47,10 @@ const Consulting = () => {
         },
     ]
     return (
-        <div className='mt-[120px] w-[80%] mx-[10%]'>
-            <div className='flex flex-wrap justify-center flex-col md:flex-row md:justify-stretch'>
-            {/* <div className='flex flex-wrap justify-stretch'> */}
-                {/* <div className='text-[64px] font-[700] mr-[43px] my-[16px] w-[535px]'> */}
-                <div className='text-[40px] lg:text-[50px] xl:text-[64px] font-[700] text-center md:mr-[43px] md:my-[16px] md:w-[28%] md:text-left'>
-                <h3 className='my-auto'>Consulting in the MEA region</h3>
+        <div className='mt-[120px] w-[90%] mx-auto'>
+            <div className='flex flex-wrap items-center flex-col md:flex-row'>
+                <div className='text-[24px] md:text-[40px] lg:text-[50px] xl:text-[64px] font-[700] text-center md:mr-[43px] md:my-[16px]  w-full xl:w-[535px] xl:h-[192px] xl:text-left'>
+                    <h3 className=''>Consulting in the MEA region</h3>
                 </div>
                 {
                     cardContents.map((item) => <ConsultingCard key={item.id} cardContents={item} />)
