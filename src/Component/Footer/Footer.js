@@ -79,9 +79,16 @@ const Footer = () => {
       </div>
     </div>
 
-
-    <div>
-        
+{/*  */}
+    <div className="bg-[#4a72b8] mt-[120px]">
+    <div className="grid grid-rows-2 grid-cols-1 lg:grid-cols-[_1fr,250px] lg:gird-flow-col gap-0">
+    <div className="border-2  border-[#293750] text-[white]">
+          <img className="w-[140px] mx-auto my-[32px]" src={logo}></img>
+        </div>
+    <div className="border-2  border-[#293750] text-[white]">
+          <img className="w-[140px] mx-auto my-[32px]" src={logo}></img>
+        </div>
+    </div>
     </div>
     </div>
   );
