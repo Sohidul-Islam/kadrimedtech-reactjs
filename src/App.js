@@ -7,6 +7,8 @@ import Features from './Component/Features/Features';
 import WhyWorkWithUs from './Component/WhyWorkWithUs/WhyWorkWithUs';
 import OurFocusedArea from './Component/OurFocusedArea/OurFocusedArea';
 import OurServices from './Component/OurServices/OurServices';
+import OtherServices from './Component/OtherServices/OtherServices';
+import Footer from './Component/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
      <WhyWorkWithUs/>
      <OurFocusedArea/>
      <OurServices/>
+     <OtherServices/>
+     <Footer/>
     </div>
   );
 }

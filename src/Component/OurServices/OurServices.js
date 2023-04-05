@@ -26,7 +26,6 @@ const OurServices = () => {
           {/* card 1 */}
           <div className="xl:my-0 my-[20px] 2xl:w-[565px] 2xl:h-[688px] xl:w-[500px] xl:h-[650px] w-full h-auto bg-[#293750] relative top-0 left-0 right-0">
             <div className="xl:block hidden before:content-[''] before:absolute before:top-[-10px] before:right-0 before:-z-5 before:w-[50%] before:h-[6px] before:bg-[#56B8FC] ">
-
               </div>
             <div className="before:content-['1'] before:text-[#fff] before:text-center lg:before:text-[32px] md:before:text-[32px] sm:before:text-[24px] before:text-[20px] before:absolute before:top-[-26px] before:left-[45%] xl:before:right-[45%] md:before:right-[47%] before:right-[46%] sm:before:w-[8%] md:before:w-[6%] xl:before:w-[10%] xl:before:h-[7%] xl:before:h-[8%] md:before:h-[7%] sm:before:h-[6%] before:h-[5%] before:bg-[#01112D] before:border-2 before:border-[#d9d9d9] before:rounded-[50%]">
               
