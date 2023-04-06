@@ -9,6 +9,8 @@ import OurFocusedArea from './Component/OurFocusedArea/OurFocusedArea';
 import OurServices from './Component/OurServices/OurServices';
 import OtherServices from './Component/OtherServices/OtherServices';
 import Footer from './Component/Footer/Footer';
+import MarketEntryStrategy from './Component/MarketEntryStrategy/MarketEntryStrategy';
+import WorldWideClient from './Component/WorldWideClient/WorldWideClient';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
      <Features/>
      <WhyWorkWithUs/>
      <OurFocusedArea/>
+     <MarketEntryStrategy/>
+     <WorldWideClient/>
      <OurServices/>
      <OtherServices/>
      <Footer/>

@@ -18,7 +18,7 @@ const Features = () => {
         }
     ]
   return (
-    <div className='flex flex-col justify-center items-center xl:flex-row z-50'>
+    <div className='flex flex-col justify-center items-center md:flex-row z-50'>
         {
             features.map((feature)=> <FeatureCard key={feature.id} feature={feature}/>)
         }

@@ -6,7 +6,7 @@ const OurServices = () => {
   return (
     <div
       id="our-services"
-      className="w-full bg-[#01112D] mt-[120px] px-[40px] lg:px-[110px] py-[84px]"
+      className="w-full bg-[#01112D] mt-[60px] lg:mt-[120px] px-[40px] lg:px-[110px] py-[84px]"
     >
       <div className="flex flex-col justify-center items-center">
         <div className="text-[24px] lg:text-[58px] text-[#56B8FC] text-center font-[700] mb-[12px]">
@@ -22,13 +22,13 @@ const OurServices = () => {
 
 
         {/* cards */}
-        <div className="w-full flex flex-wrap xl:flex-nowrap xl:flex-row flex-row  gap-1 relative left-0 right-0 top-0">
+        <div className="w-full flex flex-wrap xl:flex-nowrap xl:flex-row justify-center flex-row  gap-1 relative left-0 right-0 top-0">
           {/* card 1 */}
           <div className="xl:my-0 my-[20px] 2xl:w-[565px] 2xl:h-[688px] xl:w-[500px] xl:h-[650px] w-full h-auto bg-[#293750] relative top-0 left-0 right-0">
             <div className="xl:block hidden before:content-[''] before:absolute before:top-[-10px] before:right-0 before:-z-5 before:w-[50%] before:h-[6px] before:bg-[#56B8FC] ">
-              </div>
+            </div>
             <div className="before:content-['1'] before:text-[#fff] before:text-center lg:before:text-[32px] md:before:text-[32px] sm:before:text-[24px] before:text-[20px] before:absolute before:top-[-26px] before:left-[45%] xl:before:right-[45%] md:before:right-[47%] before:right-[46%] sm:before:w-[8%] md:before:w-[6%] xl:before:w-[10%] xl:before:h-[7%] xl:before:h-[8%] md:before:h-[7%] sm:before:h-[6%] before:h-[5%] before:bg-[#01112D] before:border-2 before:border-[#d9d9d9] before:rounded-[50%]">
-              
+
               <div>
                 <div className="text-center inline-block bg-[#56b8fc] rounded-[35px] px-[8px] gap-[10px] text-[14px] md:text-[18px] leading-[32px] w-[26%] font-[600] text-[#fff] capitalize absolute top-[34px]  left-[37%] right-[37%]">
                   <h1>phase</h1>
@@ -75,9 +75,9 @@ const OurServices = () => {
           <div className="xl:my-0 my-[40px] 2xl:w-[565px] 2xl:h-[688px] xl:w-[500px] xl:h-[650px] w-full h-auto bg-[#293750] relative top-0 left-0 right-0">
             <div className="xl:block hidden before:content-[''] before:absolute before:top-[-10px] before:right-0 before:-z-5 before:w-[105%] before:h-[6px] before:bg-[#56B8FC] ">
 
-              </div>
+            </div>
             <div className="before:content-['2'] before:text-[#fff] before:text-center lg:before:text-[32px] md:before:text-[32px] sm:before:text-[24px] before:text-[20px] before:absolute before:top-[-26px] before:left-[45%] xl:before:right-[45%] md:before:right-[47%] before:right-[46%] sm:before:w-[8%] md:before:w-[6%] xl:before:w-[10%] xl:before:h-[7%] xl:before:h-[8%] md:before:h-[7%] sm:before:h-[6%] before:h-[5%] before:bg-[#01112D] before:border-2 before:border-[#d9d9d9] before:rounded-[50%]">
-              
+
               <div>
                 <div className="text-center inline-block bg-[#56b8fc] rounded-[35px] px-[8px] gap-[10px] text-[14px] md:text-[18px] leading-[32px] w-[26%] font-[600] text-[#fff] capitalize absolute top-[34px]  left-[37%] right-[37%]">
                   <h1>phase</h1>
@@ -123,9 +123,9 @@ const OurServices = () => {
           <div className="xl:my-0 my-[40px] 2xl:w-[565px] 2xl:h-[688px] xl:w-[500px] xl:h-[650px] w-full h-auto bg-[#293750] relative left-0 right-0 top-0">
             <div className="xl:block hidden before:content-[''] before:absolute before:top-[-10px] before:left-[-5%] before:-z-5 before:w-[55%] before:h-[6px] before:bg-[#56B8FC] ">
 
-              </div>
+            </div>
             <div className="before:content-['3'] before:text-[#fff] before:text-center lg:before:text-[32px] md:before:text-[32px] sm:before:text-[24px] before:text-[20px] before:absolute before:top-[-26px] before:left-[45%] xl:before:right-[45%] md:before:right-[47%] before:right-[46%] sm:before:w-[8%] md:before:w-[6%] xl:before:w-[10%] xl:before:h-[7%] xl:before:h-[8%] md:before:h-[7%] sm:before:h-[6%] before:h-[5%] before:bg-[#01112D] before:border-2 before:border-[#d9d9d9] before:rounded-[50%]">
-              
+
               <div>
                 <div className="text-center inline-block bg-[#56b8fc] rounded-[35px] px-[8px] gap-[10px] text-[14px] md:text-[18px] leading-[32px] w-[26%] font-[600] text-[#fff] capitalize absolute top-[34px]  left-[37%] right-[37%]">
                   <h1>phase</h1>

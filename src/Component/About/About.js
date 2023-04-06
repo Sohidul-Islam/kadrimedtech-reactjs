@@ -4,7 +4,7 @@ import logo from '../../Images/logo-1.png'
 
 const About = () => {
     return (
-        <div className='flex flex-col  lg:flex-row  items-center mt-[120px] relative top-0 left-0 right-0 -z-50'>
+        <div className='flex flex-col  lg:flex-row  items-center mt-[60px] lg:mt-[120px] relative top-0 left-0 right-0 -z-50'>
             <div className='w-full bg-[#181A23] text-center px-[64px] pt-[160px] pb-[200px] lg:w-[100%] xl:w-[68%] lg:pl-[5%] lg:pt-[13%] lg:pr-[12%] lg:pb-[31%] xl:rounded-r-[24px] lg:text-left '>
                 <div>
                     <h3 className='text-[#fff] text-[40px] md:text-[58px]'>About us</h3>

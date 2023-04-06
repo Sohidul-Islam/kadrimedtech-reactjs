@@ -8,88 +8,81 @@ import arrowup from "../../Images/arrow-up.png";
 import arrowright from "../../Images/arrow-right.png";
 const Footer = () => {
   return (
-    <div>
-        <div className="bg-[#01112D] mt-[120px]">
-      <div className=" grid grid-rows-2 grid-cols-1 lg:grid-cols-3 lg:gird-flow-col gap-0">
-        <div className="border-2  border-[#293750] text-[white]">
-          <img className="w-[140px] mx-auto my-[32px]" src={logo}></img>
-        </div>
-        {/*  */}
-        <div className="border-2 border-[#293750] text-[white]">
-          <div className="ml-0 lg:ml-[80px] my-[40px] text-center lg:text-left">
-            <h3 className="text-[32px] leading-[42px] font-[600] uppercase w-full">
-              Location
-            </h3>
-            <p className="text-[24px] leading-[36px] font-[400] w-full">
-              Stockholm, Sweden
-            </p>
-          </div>
-        </div>
-        {/*  */}
-        <div className="border-2 row-span-2 border-[#293750] text-[white] py-[43px]">
-          <div className="w-full h-full flex flex-col gap-[40px] items-center">
-            <div className="w-[24px]">
-              <img className="w-full" src={arrowup}></img>
+    <div className=" mt-[60px] lg:mt-[120px] relative top-0 left-0 right-0">
+      {/* footer 2 */}
+      <div className="bg-[#01112D]">
+        <div className="grid grid-cols-1 lg:grid-cols-[_1fr,250px] lg:gird-flow-col gap-0">
+          <div className="border-2 w-full border-[#293750] text-[white]">
+            <div className="w-full h-[50%] border-2 border-[#293750] flex">
+              {/* logo */}
+              <div className="w-[50%] border-r-2 border-[#293750]">
+                <img className="w-[140px] mx-auto my-[32px]" src={logo}></img>
+              </div>
+              <div className="w-[50%]">
+                {/* location */}
+                <div className="ml-0 lg:ml-[80px] my-[40px] text-center lg:text-left">
+                  <h3 className="text-[18px] lg:text-[32px] leading-[42px] font-[600] uppercase w-full">
+                    Location
+                  </h3>
+                  <p className="text-[14px] lg:text-[24px] leading-[36px] font-[400] w-full">
+                    Stockholm, Sweden
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="w-[152px] py-[32px]">
-              <h3 className="text-[24px] leading-[42px] font-[300] uppercase rotate-90">
-                Back to Top
-              </h3>
+            {/*  */}
+            <div className="w-full h-[50%] flex">
+              <div className="w-[50%] border-r-2 border-[#293750] flex justify-center items">
+                {/* Social media */}
+                <span className="flex flex-row gap-[8px] items-center lg:gap-[42px] justify-center py-[42px]">
+                  <span className="w-[32px] xl:w-[78px] lg:w-[60px]">
+                    <img className="w-full" src={icon1}></img>
+                  </span>
+                  <span className="w-[32px] xl:w-[78px] lg:w-[60px]">
+                    <img className="w-full" src={icon2}></img>
+                  </span>
+                  <span className="w-[32px] xl:w-[78px] lg:w-[60px]">
+                    <img className="w-full" src={icon3}></img>
+                  </span>
+                  <span className="w-[32px] xl:w-[78px] lg:w-[60px]">
+                    <img className="w-full" src={icon4}></img>
+                  </span>
+                </span>
+              </div>
+              <div className="w-[50%]">
+                {/* email */}
+                <div className="ml-0 lg:ml-[80px] my-[40px] text-center lg:text-left">
+                  <h3 className="text-[18px] lg:text-[32px] leading-[42px] font-[600] uppercase w-full">
+                    E-mail
+                  </h3>
+                  <p className="text-[14px] lg:text-[24px] leading-[36px] font-[400] w-full">
+                    adam@kadri.se
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" lg:block hidden lg:border-b-2 lg:border-[#293750] text-[white]">
+            {/* back to top */}
+            <div className="flex flex-col justify-center items-center my-[46px]">
+              <div className="w-[24px] mb-[20px]">
+                <img className="w-full" src={arrowup}></img>
+              </div>
+              <div className="w-[152px] py-[32px] mt-[20px]">
+                <h3 className="text-[24px] leading-[42px] font-[300] uppercase rotate-90">
+                  Back to Top
+                </h3>
+              </div>
             </div>
           </div>
         </div>
-        {/*  */}
-        <div className=" border-2 border-[#293750] text-[white]">
-          <span className="flex flex-row gap-[16px] lg:gap-[42px] justify-center py-[42px]">
-            <span className="w-[50px] lg:w-[78px]">
-              <img className="w-full" src={icon1}></img>
-            </span>
-            <span className="w-[50px] lg:w-[78px]">
-              <img className="w-full" src={icon2}></img>
-            </span>
-            <span className="w-[50px] lg:w-[78px]">
-              <img className="w-full" src={icon3}></img>
-            </span>
-            <span className="w-[50px] lg:w-[78px]">
-              <img className="w-full" src={icon4}></img>
-            </span>
-          </span>
-        </div>
-        {/*  */}
-        <div className="border-2 border-[#293750] text-[white]">
-          <div className="ml-0 lg:ml-[80px] my-[40px] text-center lg:text-left">
-            <h3 className="text-[32px] leading-[42px] font-[600] uppercase w-full">
-              E-mail
-            </h3>
-            <p className="text-[24px] leading-[36px] font-[400] w-full">
-              adam@kadri.se
-            </p>
-          </div>
-        </div>
-        {/*  */}
-      </div>
-
-      <div className="border-2 row-span-2 border-[#293750] text-[white] pl-[28px] lg:pl-[108px] py-[46px]">
-        <div className="flex justify-center lg:justify-start items-center">
+        <div className="text-[#fff] flex items-center gap-[27px] pl-[108px] py-[46px]">
           <h3 className="text-[22px] lg:text-[54px] leading-[32px] lg:leading-[82px] font-[700] uppercase">
             Want to contact ?
           </h3>
           <img className="ml-[16px] lg:ml-[28px] w-[60px] lg:w-[117px]" src={arrowright}></img>
         </div>
       </div>
-    </div>
-
-{/*  */}
-    <div className="bg-[#4a72b8] mt-[120px]">
-    <div className="grid grid-rows-2 grid-cols-1 lg:grid-cols-[_1fr,250px] lg:gird-flow-col gap-0">
-    <div className="border-2  border-[#293750] text-[white]">
-          <img className="w-[140px] mx-auto my-[32px]" src={logo}></img>
-        </div>
-    <div className="border-2  border-[#293750] text-[white]">
-          <img className="w-[140px] mx-auto my-[32px]" src={logo}></img>
-        </div>
-    </div>
-    </div>
     </div>
   );
 };

@@ -26,14 +26,14 @@ const OtherServices = () => {
         },
     ]
   return (
-    <div className='mt-[120px]'>
+    <div className='mt-[60px] lg:mt-[120px]'>
 
         <div className='text-center text-[32px] md:text-[58px] font-[700] leading-[96px] text-[#0C0D12] mb-[32px]'>
             <h1>Other Services</h1>
         </div>
         <div className='flex justify-center flex-wrap gap-[18px]'>
             {
-                services.map((service)=> <OtherServicesCard service={service}/>)
+                services.map((service)=> <OtherServicesCard key={service.id} service={service}/>)
             }
         </div>
     </div>
