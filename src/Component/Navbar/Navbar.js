@@ -10,7 +10,7 @@ const Navbar = ({ navItem }) => {
 
             <div className='flex justify-between xl:justify-center items-center md:items-center relative top-0 left-0'>
                 {/* <div className='inline ml-[16px] 2xl:ml-[154px] 2xl:mr-[80px] w-[60px] min-[1280px]:w-[122px] xl:ml-[50px] max-[1280px]:ml-[50px] mt-[12px] 2xl:mr-[274px] xl:mr-[80px]'> */}
-                <div className='inline ml-[16px] h-[40px] md:h-[80px] mt-[12px] lg:mr-[50px] xl:mr-[120px] min-[1700px]:mr-[274px]'>
+                <div className='inline ml-[16px] h-[40px] md:h-[80px] mt-[12px] lg:mr-[50px] xl:mr-[80px] min-[1700px]:mr-[274px]'>
                     <img className='h-full' src={logo1}></img>
                 </div>
                 <ul className='hidden xl:inline'>

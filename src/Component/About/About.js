@@ -30,7 +30,7 @@ const About = () => {
                     <img className='w-full' src={logo}></img>
                 </div>
                 {/* <div className='absolute w-[32%] top-[10%] right-[10%]'> */}
-                <div className='w-full mt-[64px] xl:absolute xl:w-[32%] xl:top-[10%] xl:right-[10%]'>
+                <div className='w-full mt-[64px] xl:absolute xl:w-[32%] xl:top-[12%] xl:right-[10%]'>
                     <div>
                         <img className='w-full h-[43%]' src={image} alt='kadriMedTech'></img>
                     </div>

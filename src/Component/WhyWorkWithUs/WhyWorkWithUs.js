@@ -31,20 +31,22 @@ const WhyWorkWithUs = () => {
                         let newisActive = isActive;
                         newisActive=[1,0,0];
                         setIsActive(newisActive)
-                    }} className={` ${isActive[0]===1 ? 'text-[#D9D9D9] border-b-4 border-[#d9d9d9]':'text-[#fff] border-0' } text-[18px]  2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>understanding the client's Needs</button>
+                    }} className={` ${isActive[0]===1 ? 'text-[#D9D9D9] border-b-4 font-[600] border-[#d9d9d9]':'text-[#fff] border-0' } text-[18px]  font-[400] 2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>understanding the client's Needs</button>
+                    <br></br>
                     <button onClick={()=>{
                         setTextItem(newText[1].text)
                         let newisActive = isActive;
                         newisActive=[0,1,0];
                         setIsActive(newisActive)
-                    }} className={` ${isActive[1]===1 ? 'text-[#D9D9D9] border-b-4 border-[#d9d9d9]':'text-[#fff] border-0' } text-[18px]  2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>Culturally appropriate communication</button>
+                    }} className={` ${isActive[1]===1 ? 'text-[#D9D9D9] border-b-4 font-[600] border-[#d9d9d9]':'text-[#fff] border-0' } text-[18px]  font-[400] 2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>Culturally appropriate communication</button>
+                    <br></br>
                     <button onClick={()=>{
                         setTextItem(newText[2].text)
                         let newisActive = isActive;
                         newisActive=[0,0,1];
                         setIsActive(newisActive)
-                    }} className={` ${isActive[2]===1 ? 'text-[#D9D9D9] border-b-4 border-[#d9d9d9]':'text-[#fff] border-0' } text-[18px]  2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>Experienced professionals</button>
-                </div>
+                    }} className={` ${isActive[2]===1 ? 'text-[#D9D9D9] border-b-4 font-[600] border-[#d9d9d9]':'text-[#fff] border-0' } text-[18px] font-[400]  2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>Experienced professionals</button>
+                </div> font-[400]
             </div>
             <div className=' h-full w-[100%] lg:w-[60%] bg-[#F2F2F2] inline-block'>
                 {/* <div className='h-full w-[60%] bg-[#F2F2F2] inline-block'> */}
