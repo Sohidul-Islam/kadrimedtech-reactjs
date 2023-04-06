@@ -21,7 +21,7 @@ const WhyWorkWithUs = () => {
     const [isActive, setIsActive] = useState([1,0,0])
     console.log(isActive[0]);
     return (
-        <div className='bg-[#F2F2F2] w-full mt-[60px] lg:mt-[120px]'>
+        <div className='bg-[#F2F2F2] w-full mt-[60px] h-auto flex flex-col lg:flex-row items-center lg:mt-[120px]'>
             <div className='h-full w-[100%] lg:w-[40%] bg-[#181A23] inline-block'>
                 {/* <div className='h-full w-[40%] bg-[#181A23] inline-block'> */}
                 <div className="p-[100px]">
@@ -46,7 +46,7 @@ const WhyWorkWithUs = () => {
                         newisActive=[0,0,1];
                         setIsActive(newisActive)
                     }} className={` ${isActive[2]===1 ? 'text-[#D9D9D9] border-b-4 font-[600] border-[#d9d9d9]':'text-[#fff] border-0' } text-[18px] font-[400]  2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>Experienced professionals</button>
-                </div> font-[400]
+                </div> 
             </div>
             <div className=' h-full w-[100%] lg:w-[60%] bg-[#F2F2F2] inline-block'>
                 {/* <div className='h-full w-[60%] bg-[#F2F2F2] inline-block'> */}
