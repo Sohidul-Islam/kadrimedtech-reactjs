@@ -24,7 +24,7 @@ const WhyWorkWithUs = () => {
     return (
         <div className='bg-[#F2F2F2] w-full mt-[60px] h-auto flex flex-col lg:flex-row items-center lg:mt-[120px]'>
             <div className='h-full w-[100%] lg:w-[40%] bg-[#181A23] inline-block'>
-                <div className="px-[50px] py-[100px] md:px-[32px] md:py-[100px]  xl:px-[100px] xl:py-[40px] 2xl:px-[100px] 2xl:py-[100px]">
+                <div className="px-[50px] py-[100px] md:px-[32px] md:py-[100px]  xl:px-[100px] xl:py-[40px] 2xl:px-[40px] 2xl:py-[100px] min-[1920px]:px-[100px] min-[1920px]:py-[100px]">
                 <AnimationOnScroll animateOnce={true} animateIn="animate__backInRight">
                 <h3 className='text-[#56B8FC] text-[32px] font-[700] text-[28px] md:text-[32px] 2xl:text-[58px] mb-[24px] 2xl:mb-[48px]'>Why work with us?</h3>
                     </AnimationOnScroll>
@@ -33,26 +33,26 @@ const WhyWorkWithUs = () => {
                         let newisActive = isActive;
                         newisActive = [1, 0, 0];
                         setIsActive(newisActive)
-                    }} className={` ${isActive[0] === 1 ? 'text-[#D9D9D9] border-b-4 font-[600] border-[#d9d9d9]' : 'text-[#fff] border-0'} text-[12px] md:text-[18px]  font-[400] 2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>understanding the client's Needs</button>
+                    }} className={` ${isActive[0] === 1 ? 'text-[#D9D9D9] border-b-4 font-[600] border-[#d9d9d9]' : 'text-[#fff] border-0'} text-[12px] md:text-[18px] lg:text-[16px]  font-[400] 2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>understanding the client's Needs</button>
                     <br></br>
                     <button onClick={() => {
                         setTextItem(newText[1].text)
                         let newisActive = isActive;
                         newisActive = [0, 1, 0];
                         setIsActive(newisActive)
-                    }} className={` ${isActive[1] === 1 ? 'text-[#D9D9D9] border-b-4 font-[600] border-[#d9d9d9]' : 'text-[#fff] border-0'} text-[12px] md:text-[18px]  font-[400] 2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>Culturally appropriate communication</button>
+                    }} className={` ${isActive[1] === 1 ? 'text-[#D9D9D9] border-b-4 font-[600] border-[#d9d9d9]' : 'text-[#fff] border-0'} text-[12px] md:text-[18px] lg:text-[16px]  font-[400] 2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>Culturally appropriate communication</button>
                     <br></br>
                     <button onClick={() => {
                         setTextItem(newText[2].text)
                         let newisActive = isActive;
                         newisActive = [0, 0, 1];
                         setIsActive(newisActive)
-                    }} className={` ${isActive[2] === 1 ? 'text-[#D9D9D9] border-b-4 font-[600] border-[#d9d9d9]' : 'text-[#fff] border-0'} text-[12px] md:text-[18px] font-[400]  2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>Experienced professionals</button>
+                    }} className={` ${isActive[2] === 1 ? 'text-[#D9D9D9] border-b-4 font-[600] border-[#d9d9d9]' : 'text-[#fff] border-0'} text-[12px] md:text-[18px] lg:text-[16px] font-[400]  2xl:text-[28px] mb-[24px] 2xl:mb-[48px]`}>Experienced professionals</button>
                 </div>
             </div>
             <div className=' h-full w-[100%] lg:w-[60%] bg-[#F2F2F2] inline-block'>
                 <div className='px-[50px] py-[100px] md:px-[32px] md:py-[100px]  xl:px-[100px] xl:py-[40px] 2xl:px-[100px] 2xl:py-[100px]'>
-                <AnimationOnScroll animateOnce={true} animateIn="animate__backInRight" delay={500}>  <p className=' text-[12px] md:text-[18px] 2xl:text-[24px]'> {textItem}</p></AnimationOnScroll>
+                <AnimationOnScroll animateOnce={true} animateIn="animate__backInRight" delay={500}>  <p className=' text-[12px] md:text-[18px] lg:text-[16px] 2xl:text-[24px]'> {textItem}</p></AnimationOnScroll>
                 </div>
             </div>
         </div>

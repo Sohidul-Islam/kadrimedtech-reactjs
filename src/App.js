@@ -12,13 +12,14 @@ import MarketEntryStrategy from './Component/MarketEntryStrategy/MarketEntryStra
 import WorldWideClient from './Component/WorldWideClient/WorldWideClient';
 import "animate.css/animate.min.css";
 import Consulting from './Component/Consulting/Consulting';
+import Details from './Component/Details/Details';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Consulting /> */}
-      <Consulting/>
+      <Details/>
+      {/* <Consulting/>
       <About />
       <Features />
       <WhyWorkWithUs />
@@ -27,7 +28,7 @@ function App() {
       <WorldWideClient />
       <OurServices />
       <OtherServices />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

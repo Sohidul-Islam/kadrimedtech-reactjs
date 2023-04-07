@@ -40,8 +40,7 @@ const Header = () => {
            <div className='relative top-0 left-0 right-0'>
            <Slider navItem={navItem}/>
            </div>
-           <br></br>
-           <Details/>
+         
         </div>
     )
 }

@@ -87,7 +87,7 @@ const Consulting = () => {
               {row.id === 1 && (
                 <div
                   key={row.id}
-                  className="p-[24px] mx-[0px] rounded-[16px] border-2 border-[#D9D9D9] w-full md:max-w-[%] xl:max-w-[230px] 2xl:max-w-[276px] min-[1920px]:max-w-[353px] h-auto min-[1920px]:max-h-[227px]"
+                  className="p-[24px] mx-[0px] rounded-[16px] border-2 border-[#D9D9D9] w-full md:max-w-[50%] xl:max-w-[230px] 2xl:max-w-[276px] min-[1920px]:max-w-[353px] h-auto min-[1920px]:max-h-[227px]"
                 >
                   <div>
                     <div>
@@ -104,7 +104,7 @@ const Consulting = () => {
               {row.id === 2 && (
                 <div
                   key={row.id}
-                  className="p-[24px] mx-[0px] rounded-[16px] border-2 border-[#D9D9D9] w-full md:max-w-[%] xl:max-w-[230px] 2xl:max-w-[276px] min-[1920px]:max-w-[353px] h-auto min-[1920px]:max-h-[227px]"
+                  className="p-[24px] mx-[0px] rounded-[16px] border-2 border-[#D9D9D9] w-full md:max-w-[48%] xl:max-w-[230px] 2xl:max-w-[276px] min-[1920px]:max-w-[353px] h-auto min-[1920px]:max-h-[227px]"
                 >
                   <div>
                     <div>
@@ -121,7 +121,7 @@ const Consulting = () => {
               {row.id === 3 && (
                 <div
                   key={row.id}
-                  className="p-[24px] mx-[0px] rounded-[16px] border-2 border-[#D9D9D9] w-full md:max-w-[%] xl:max-w-[230px] 2xl:max-w-[276px] min-[1920px]:max-w-[353px] h-auto min-[1920px]:max-h-[227px]"
+                  className="p-[24px] mx-[0px] rounded-[16px] border-2 border-[#D9D9D9] w-full md:max-w-[48%] xl:max-w-[230px] 2xl:max-w-[276px] min-[1920px]:max-w-[353px] h-auto min-[1920px]:max-h-[227px]"
                 >
                   <div>
                     <div>
@@ -138,7 +138,7 @@ const Consulting = () => {
               {row.id === 4 && (
                 <div
                   key={row.id}
-                  className="p-[24px] mx-[0px] rounded-[16px] border-2 border-[#D9D9D9] w-full md:max-w-[%] xl:max-w-[230px] 2xl:max-w-[276px] min-[1920px]:max-w-[353px] h-auto min-[1920px]:max-h-[227px]"
+                  className="p-[24px] mx-[0px] rounded-[16px] border-2 border-[#D9D9D9] w-full md:max-w-[48%] xl:max-w-[230px] 2xl:max-w-[276px] min-[1920px]:max-w-[353px] h-auto min-[1920px]:max-h-[227px]"
                 >
                   <div>
                     <div>
@@ -155,7 +155,7 @@ const Consulting = () => {
               {row.id === 5 && (
                 <div
                   key={row.id}
-                  className="p-[24px] mx-[0px] rounded-[16px] border-2 border-[#D9D9D9] w-full md:max-w-[%] xl:max-w-[194px] h-auto min-[1920px]:max-h-[227px]"
+                  className="p-[24px] mx-[0px] rounded-[16px] border-2 border-[#D9D9D9] w-full md:max-w-[48%] xl:max-w-[194px] h-auto min-[1920px]:max-h-[227px]"
                 >
                   <div>
                     <div>
