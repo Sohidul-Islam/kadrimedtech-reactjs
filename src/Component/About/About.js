@@ -1,11 +1,12 @@
 import React from 'react'
 import image from '../../Images/image-3.png'
 import logo from '../../Images/logo-1.png'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const About = () => {
     return (
         <div className='flex flex-col  lg:flex-row  items-center mt-[60px] lg:mt-[120px] relative top-0 left-0 right-0 -z-50'>
-            <div className='w-full bg-[#181A23] text-center px-[64px] pt-[160px] pb-[200px] lg:w-[100%] xl:w-[68%] lg:pl-[5%] lg:pt-[13%] lg:pr-[12%] lg:pb-[31%] xl:rounded-r-[24px] lg:text-left '>
+            <div className='w-full bg-[#181A23] text-center px-[28px] lg:px-[64px] pt-[160px] pb-[200px] lg:w-[100%] xl:w-[68%] lg:pl-[5%] lg:pt-[13%] lg:pr-[12%] lg:pb-[31%] xl:rounded-r-[24px] lg:text-left '>
                 <div>
                     <h3 className='text-[#fff] text-[40px] md:text-[58px]'>About us</h3>
                 </div>
@@ -27,12 +28,16 @@ const About = () => {
                 </div>
 
                 <div className='absolute top-[-50px] sm:left-[37.5%] left-[35%] sm:right-[37.5%] right-[35%] sm:w-[25%] w-[30%] sm:h-[25%] h-[30%] xl:right-[26%] 2xl:right-[20%] 2xl:top-[50%] xl:top-[40%] xl:left-[55%]  z-50'>
-                    <img className='w-full' src={logo}></img>
+                    <AnimationOnScroll animateIn="animate__heartBeat">
+                        <img className='w-full' src={logo}></img>
+                    </AnimationOnScroll>
                 </div>
                 {/* <div className='absolute w-[32%] top-[10%] right-[10%]'> */}
                 <div className='w-full mt-[64px] xl:absolute xl:w-[32%] xl:top-[12%] xl:right-[10%]'>
                     <div>
-                        <img className='w-full h-[43%]' src={image} alt='kadriMedTech'></img>
+                        <AnimationOnScroll animateIn="animate__backInRight">
+                            <img className='w-full h-[43%]' src={image} alt='kadriMedTech'></img>
+                        </AnimationOnScroll>
                     </div>
                 </div>
             </div>

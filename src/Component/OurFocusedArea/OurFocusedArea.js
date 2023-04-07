@@ -43,8 +43,7 @@ function OurFocusedArea() {
                     <img className='w-full' src={image2}></img>
                 </div>
 
-                <div className='bg-[#F2F2F2] w-full px-[64px] py-[60px] xl:py-[100px]'>
-                    {/* <div className='bg-[#F2F2F2] rounded-l-[24px] w-[60%] px-[110px] py-[80px] border-4 border-[#fff]'> */}
+                <div className='bg-[#F2F2F2] xl:rounded-l-[29px] xl:border-4 xl:border-[#fff] w-full px-[64px] py-[60px] xl:py-[100px]'>
                     <p className='text-[18px] md:text-[24px]'>
                         Navigating the cultural requirements for doing business in the region
                         <br></br>

@@ -2,10 +2,10 @@ import React from "react";
 import image1 from "../../Images/image-3.png";
 const MarketEntryStrategy = () => {
   return (
-    <div className="mt-[60px] lg:mt-[120px] bg-[#ECF3FC] w-[90%] min-[1920px]:w-[1704px] min-[1920px]:h-[957px] xl:h-[1150px] h-auto 2xl:w-[1500px] 2xl:h-[1000px] mx-auto rounded-[16px]">
+    <div className="mt-[60px] lg:mt-[120px] bg-[#ECF3FC] w-[96%] min-[1920px]:w-[1704px] min-[1920px]:h-[957px] xl:h-[1150px] h-auto 2xl:w-[1500px] 2xl:h-[1000px] mx-auto rounded-[16px]">
       <div className="">
-        <div className="xl:max-w-[1000px] 2xl:max-w-[1171px] pt-[64px] pb-[32px] lg:mx-auto mx-[40px]">
-          <h2 className="2xl:text-[40px] xl:text-[28px] text-[20px] 2xl:leading-[64px] xl:leading-[32px] font-[700] 2xl:tracking-[0.8px] text-[#2E3144] text-center">
+        <div className="xl:max-w-[1000px] 2xl:max-w-[1171px] max-w-[700px] pt-[64px] pb-[32px] lg:mx-auto mx-[40px]">
+          <h2 className="2xl:text-[40px] xl:text-[28px] text-[24px] 2xl:leading-[64px] xl:leading-[32px] font-[700] 2xl:tracking-[0.8px] text-[#2E3144] text-center">
             Developing the market entry strategy Engagement and rollout in new
             territories Ongoing support
           </h2>

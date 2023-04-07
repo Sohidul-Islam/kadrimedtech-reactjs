@@ -11,21 +11,22 @@ import OtherServices from './Component/OtherServices/OtherServices';
 import Footer from './Component/Footer/Footer';
 import MarketEntryStrategy from './Component/MarketEntryStrategy/MarketEntryStrategy';
 import WorldWideClient from './Component/WorldWideClient/WorldWideClient';
+import "animate.css/animate.min.css";
 
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <Consulting/>
-     <About/>
-     <Features/>
-     <WhyWorkWithUs/>
-     <OurFocusedArea/>
-     <MarketEntryStrategy/>
-     <WorldWideClient/>
-     <OurServices/>
-     <OtherServices/>
-     <Footer/>
+      <Header />
+      <Consulting />
+      <About />
+      <Features />
+      <WhyWorkWithUs />
+      <OurFocusedArea />
+      <MarketEntryStrategy />
+      <WorldWideClient />
+      <OurServices />
+      <OtherServices />
+      <Footer />
     </div>
   );
 }
