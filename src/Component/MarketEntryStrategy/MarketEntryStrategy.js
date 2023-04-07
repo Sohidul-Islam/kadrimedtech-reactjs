@@ -1,5 +1,6 @@
 import React from "react";
 import image1 from "../../Images/image-3.png";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 const MarketEntryStrategy = () => {
   return (
     <div className="mt-[60px] lg:mt-[120px] bg-[#ECF3FC] w-[96%] min-[1920px]:w-[1704px] min-[1920px]:h-[957px] xl:h-[1150px] h-auto 2xl:w-[1500px] 2xl:h-[1000px] mx-auto rounded-[16px]">
@@ -43,7 +44,7 @@ const MarketEntryStrategy = () => {
             </div>
           </div>
           <div className="w-full xl:w-[450px] min-[1700px]:w-[553px] mt-[12px] lg:mt-0 lg:mb-0 pb-[40px] lg:mt-0">
-            <img className="w-full" src={image1}></img>
+          <AnimationOnScroll animateOnce={true} animateIn="animate__backInRight"> <img className="w-full" src={image1}></img></AnimationOnScroll>
           </div>
         </div>
       </div>

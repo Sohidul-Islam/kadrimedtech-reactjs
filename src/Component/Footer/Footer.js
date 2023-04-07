@@ -6,6 +6,7 @@ import icon3 from "../../Icon/insta.svg";
 import icon4 from "../../Icon/in.svg";
 import arrowup from "../../Images/arrow-up.png";
 import arrowright from "../../Images/arrow-right.png";
+import './Footer.css'
 const Footer = () => {
   return (
     <div className=" mt-[60px] lg:mt-[120px] relative top-0 left-0 right-0">
@@ -62,12 +63,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className=" lg:block hidden lg:border-b-2 lg:border-[#293750] text-[white]">
+          <div id="back-to-top" className=" lg:block hidden lg:border-b-2 lg:border-[#293750] hover:bg-[#293750] duration-500 text-[white]">
             {/* back to top */}
-            <div className="flex flex-col justify-center items-center my-[46px]">
-              <div className="w-[24px] mb-[20px]">
-                <img className="w-full" src={arrowup}></img>
-              </div>
+            <div className="flex flex-col justify-center items-center py-[46px]  hover:pt-[40px] duration-500 ">
+                <img id="up-arrow" className="w-[24px] mb-[20px]" src={arrowup}></img>
               <div className="w-[152px] py-[32px] mt-[20px]">
                 <h3 className="text-[24px] leading-[42px] font-[300] uppercase rotate-90">
                   Back to Top
@@ -76,11 +75,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-[#fff] flex items-center gap-[27px] pl-[108px] py-[46px]">
+        <div id="want-to-contact" className="text-[#fff] flex items-center gap-[27px] hover:bg-[#293750] pl-[108px] py-[46px]">
           <h3 className="text-[22px] lg:text-[54px] leading-[32px] lg:leading-[82px] font-[700] uppercase">
             Want to contact ?
           </h3>
-          <img className="ml-[16px] lg:ml-[28px] w-[60px] lg:w-[117px]" src={arrowright}></img>
+          <img id="arrow-right" className="ml-[16px] lg:ml-[28px] w-[60px] lg:w-[117px]" src={arrowright}></img>
         </div>
       </div>
     </div>

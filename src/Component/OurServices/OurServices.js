@@ -2,6 +2,7 @@ import React from "react";
 import s1 from "../../Images/services-1.png";
 import s2 from "../../Images/services-2.png";
 import s3 from "../../Images/services-3.png";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 const OurServices = () => {
   const services = [
     {
@@ -72,7 +73,8 @@ const OurServices = () => {
 
           {
             services.map((service) => {
-              return <div key={service.id} className="xl:my-0 my-[20px] 2xl:w-[565px] 2xl:h-[688px] xl:w-[500px] xl:h-[650px] w-full h-auto bg-[#293750] relative top-0 left-0 right-0">
+              return <AnimationOnScroll animateOnce={true} animateIn={`${service.id===1 ? 'animate__backInLeft': (service.id===2) ? 'animate__backInUp' : 'animate__backInRight' } `} key={service.id} className="xl:my-0 my-[20px] 2xl:w-[565px] 2xl:h-[688px] xl:w-[500px] xl:h-[650px] w-full h-auto bg-[#293750] relative top-0 left-0 right-0">
+                <AnimationOnScroll animateOnce={true} animateIn="animate__zoomIn" delay={600}>
                 {
                   service.id === 1 && <div className="xl:block hidden before:content-[''] before:absolute before:top-[-10px] before:right-0 before:-z-5 before:w-[50%] before:h-[6px] before:bg-[#56B8FC] ">
                   </div>
@@ -85,14 +87,17 @@ const OurServices = () => {
 
                   </div>
                 }
-                <div className={`before:content-['${service.id}'] before:text-[#fff] before:text-center lg:before:text-[32px] md:before:text-[32px] sm:before:text-[24px] before:text-[20px] before:absolute before:top-[-26px] before:left-[45%] xl:before:right-[45%] md:before:right-[47%] before:right-[46%] sm:before:w-[8%] md:before:w-[6%] xl:before:w-[10%] xl:before:h-[7%] xl:before:h-[8%] md:before:h-[7%] sm:before:h-[6%] before:h-[5%] before:bg-[#01112D] before:border-2 before:border-[#d9d9d9] before:rounded-[50%]`}>
-
+                </AnimationOnScroll>
+                <AnimationOnScroll animateOnce={true} animateIn="animate__zoomIn" delay={500}>
+                <div className="absolute flex justify-center items-center text-[#fff] bg-[#01112D] w-[60px] h-[60px] rounded-[50%] top-[-30px] left-[50%] translate-x-[-30px] text-center font-[600] leading-[40px] text-[32px] border-2 border-[#d9d9d9]">
+                  <p>{service.id}</p>
+                </div>
                   <div>
-                    <div className="text-center inline-block bg-[#56b8fc] rounded-[35px] px-[8px] gap-[10px] text-[14px] md:text-[18px] leading-[32px] w-[26%] font-[600] text-[#fff] capitalize absolute top-[34px]  left-[37%] right-[37%]">
+                    <div className="text-center inline-block bg-[#56b8fc] rounded-[35px] px-[8px] gap-[10px] text-[16px] md:text-[18px] leading-[32px] w-[150px] font-[600] text-[#fff] capitalize absolute top-[34px]  left-[50%] translate-x-[-75px]">
                       <h1>phase</h1>
                     </div>
                   </div>
-                </div>
+                </AnimationOnScroll>
                 <div className="w-full">
                   <img className="w-full" src={service.image}></img>
                 </div>
@@ -116,7 +121,8 @@ const OurServices = () => {
 
                   </ul>
                 </div>
-              </div>
+                
+              </AnimationOnScroll>
             })
           }
 

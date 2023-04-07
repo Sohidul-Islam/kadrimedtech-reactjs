@@ -28,14 +28,14 @@ const About = () => {
                 </div>
 
                 <div className='absolute top-[-50px] sm:left-[37.5%] left-[35%] sm:right-[37.5%] right-[35%] sm:w-[25%] w-[30%] sm:h-[25%] h-[30%] xl:right-[26%] 2xl:right-[20%] 2xl:top-[50%] xl:top-[40%] xl:left-[55%]  z-50'>
-                    <AnimationOnScroll animateIn="animate__heartBeat">
+                    <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn" delay={700}>
                         <img className='w-full' src={logo}></img>
                     </AnimationOnScroll>
                 </div>
                 {/* <div className='absolute w-[32%] top-[10%] right-[10%]'> */}
                 <div className='w-full mt-[64px] xl:absolute xl:w-[32%] xl:top-[12%] xl:right-[10%]'>
                     <div>
-                        <AnimationOnScroll animateIn="animate__backInRight">
+                        <AnimationOnScroll animateOnce={true} animateIn="animate__backInRight">
                             <img className='w-full h-[43%]' src={image} alt='kadriMedTech'></img>
                         </AnimationOnScroll>
                     </div>

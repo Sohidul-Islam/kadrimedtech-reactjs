@@ -38,9 +38,9 @@ const Slider = ({ navItem }) => {
                 <div className="w-[100vw] lg:h-[80vh] xl:h-[100vh] 2xl:h-[100vh]">
                   <img className="w-full h-full object-cover" key={image.id} src={sliderImage[currentImageIndex]}></img>
                 </div>
-                <div className="absolute left-[20px] md:left-[40px] 2xl:left-[108px] bottom-[10px] md:bottom-[40px] 2xl:w-[1123px] h-[100px] sm:h-[150px] md:h-[200px] lg:h-[450px] xl:h-[500px]  2xl:h-[570px] pr-[40px]">
+                <div className="absolute left-[20px] md:left-[40px] 2xl:left-[108px] bottom-[10px] md:bottom-[40px] 2xl:w-[1123px] h-[100px] sm:h-[150px] md:h-[200px] lg:h-[200px] xl:h-[300px]  2xl:h-[400px] min-[1920px]:h-[570px] pr-[40px]">
                   <div className="flex items-center gap-[16px] md:gap-[24px] 2xl:gap-[65px]">
-                    <div className="w-[8px] xl:w-[8px] 2xl:w-[8px] rounded-[110px] h-[100px] sm:h-[150px] md:h-[200px] lg:h-[450px] xl:h-[500px] 2xl:h-[570px] bg-[#D9D9D93D]/25">
+                    <div className="w-[8px] xl:w-[8px] 2xl:w-[8px] rounded-[110px] h-[100px] sm:h-[150px] md:h-[200px] lg:h-[200px] xl:h-[300px] 2xl:h-[400px] min-[1920px]:h-[570px] bg-[#D9D9D93D]/25">
                       <div
                         className={`w-full h-[33%] ${currentImageIndex === 0 ? "bg-[#ffff]" : "bg-transparent"
                           } rounded-md`}

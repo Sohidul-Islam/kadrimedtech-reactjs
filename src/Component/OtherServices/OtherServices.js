@@ -3,6 +3,7 @@ import image1 from '../../Images/services-4.png'
 import image2 from '../../Images/services-5.png'
 import image3 from '../../Images/services-6.png'
 import OtherServicesCard from '../OtherServicesCard/OtherServicesCard'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 const OtherServices = () => {
 
     const services = [
@@ -31,11 +32,13 @@ const OtherServices = () => {
         <div className='text-center text-[32px] md:text-[58px] font-[700] leading-[96px] text-[#0C0D12] mb-[32px]'>
             <h1>Other Services</h1>
         </div>
+        <AnimationOnScroll animateOnce={true} animateIn="animate__backInUp">
         <div className='flex justify-center flex-wrap gap-[18px]'>
             {
                 services.map((service)=> <OtherServicesCard key={service.id} service={service}/>)
             }
         </div>
+        </AnimationOnScroll>
     </div>
   )
 }

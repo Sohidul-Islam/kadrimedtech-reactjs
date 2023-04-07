@@ -1,10 +1,12 @@
 import React from 'react'
 import image1 from '../../Images/map.png'
 import './WorldWideClient.css'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 function WorldWideClient() {
   return (
     <div  className='mt-[60px] lg:mt-[120px] w-full h-auto xl:w-[1200px] xl:h-[850px] 2xl:w-[1300px] 2xl:h-[1200px] min-[1920px]:w-[1700px]  min-[1920px]:h-[1188px] xl:ml-[110px] 2xl:ml-[220px]'>
         <div id='map-section'>
+        <AnimationOnScroll animateOnce={true} animateIn="animate__backInLeft">
             <div>
                 <div className='w-[90%] md:w-[80%] mx-auto 2xl:mx-0 xl:w-[350px] xl:h-[680px]  2xl:w-[502px] 2xl:h-[741px] xl:ml-[-50px] 2xl:ml-[-110px] bg-[#FFFFFF] shadow-[0_4px_24px_rgba(0,0,0,0.12)]'>
                     <div className='max-w-[250px] md:max-w-[250px] 2xl:max-w-[316px] mx-auto text-center pt-[48px] pb-[16px]'>
@@ -27,6 +29,7 @@ function WorldWideClient() {
                     </div>
                 </div>
             </div>
+            </AnimationOnScroll>
             {/* <div>
                 <img src={image1}></img>
             </div> */}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 const WhyWorkWithUs = () => {
 
@@ -23,9 +24,10 @@ const WhyWorkWithUs = () => {
     return (
         <div className='bg-[#F2F2F2] w-full mt-[60px] h-auto flex flex-col lg:flex-row items-center lg:mt-[120px]'>
             <div className='h-full w-[100%] lg:w-[40%] bg-[#181A23] inline-block'>
-                {/* <div className='h-full w-[40%] bg-[#181A23] inline-block'> */}
                 <div className="px-[50px] py-[100px] md:px-[32px] md:py-[100px]  xl:px-[100px] xl:py-[40px] 2xl:px-[100px] 2xl:py-[100px]">
-                    <h3 className='text-[#56B8FC] text-[32px] font-[700] text-[28px] md:text-[32px] 2xl:text-[58px] mb-[24px] 2xl:mb-[48px]'>Why work with us?</h3>
+                <AnimationOnScroll animateOnce={true} animateIn="animate__backInRight">
+                <h3 className='text-[#56B8FC] text-[32px] font-[700] text-[28px] md:text-[32px] 2xl:text-[58px] mb-[24px] 2xl:mb-[48px]'>Why work with us?</h3>
+                    </AnimationOnScroll>
                     <button onClick={() => {
                         setTextItem(newText[0].text)
                         let newisActive = isActive;
@@ -49,9 +51,8 @@ const WhyWorkWithUs = () => {
                 </div>
             </div>
             <div className=' h-full w-[100%] lg:w-[60%] bg-[#F2F2F2] inline-block'>
-                {/* <div className='h-full w-[60%] bg-[#F2F2F2] inline-block'> */}
                 <div className='px-[50px] py-[100px] md:px-[32px] md:py-[100px]  xl:px-[100px] xl:py-[40px] 2xl:px-[100px] 2xl:py-[100px]'>
-                    <p className=' text-[12px] md:text-[18px] 2xl:text-[24px]'> {textItem}</p>
+                <AnimationOnScroll animateOnce={true} animateIn="animate__backInRight" delay={500}>  <p className=' text-[12px] md:text-[18px] 2xl:text-[24px]'> {textItem}</p></AnimationOnScroll>
                 </div>
             </div>
         </div>

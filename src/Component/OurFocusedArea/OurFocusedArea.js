@@ -1,6 +1,7 @@
 import React from 'react'
 import image1 from '../../Images/image-2.png'
 import image2 from '../../Images/image-4.png'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 function OurFocusedArea() {
     return (
         <>
@@ -33,14 +34,14 @@ function OurFocusedArea() {
 
                 {/* <div className='w-[36%] mt-[100px] ml-[-250px]'> */}
                 <div className='w-[80%] mx-auto mt-[-40px] xl:w-[36%] xl:mt-[100px] xl:ml-[-250px]'>
-                    <img className='w-full' src={image1}></img>
+                <AnimationOnScroll animateOnce={true} animateIn="animate__backInRight"><img className='w-full' src={image1}></img></AnimationOnScroll>
                 </div>
             </div>
             {/* right */}
             {/* <div className='flex justify-center items-center mt-[-50px]'> */}
             <div className='flex flex-col justify-center items-center mx-auto mt-[64px] xl:flex-row xl:mt-[-50px]'>
                 <div className='xl:mr-[40px] xl:ml-[128px] w-[80%] xl:w-auto mx-auto xl:w-[627px]'>
-                    <img className='w-full' src={image2}></img>
+                <AnimationOnScroll animateOnce={true} animateIn="animate__backInLeft"><img className='w-full' src={image2}></img></AnimationOnScroll>
                 </div>
 
                 <div className='bg-[#F2F2F2] xl:rounded-l-[29px] xl:border-4 xl:border-[#fff] w-full px-[64px] py-[60px] xl:py-[100px]'>
