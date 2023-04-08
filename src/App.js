@@ -18,17 +18,17 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Details/>
-      {/* <Consulting/>
+      <Details />
+      <Consulting />
       <About />
       <Features />
-      <WhyWorkWithUs />
       <OurFocusedArea />
       <MarketEntryStrategy />
-      <WorldWideClient />
+      <WhyWorkWithUs />
       <OurServices />
       <OtherServices />
-      <Footer /> */}
+      <WorldWideClient />
+      <Footer />
     </div>
   );
 }

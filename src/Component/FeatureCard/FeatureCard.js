@@ -11,9 +11,9 @@ const FeatureCard = ({ feature }) => {
                         <img className='w-full' src={feature.image}></img>
                     </div>
                     <div className=' mb-4'>
-                        <h3 className='text-[#56B8FC] text-[18px] lg:text-[32px] capitalize font-[700]'>{feature.title}</h3>
+                        <h3 className='text-[#56B8FC] text-[18px] text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[24px] min-[1920px]:text-[32px] capitalize font-[700]'>{feature.title}</h3>
                     </div>
-                    <div className='text-[14px] lg:text-[32px] mb-4'>
+                    <div className='text-[14px] text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[24px] min-[1920px]:text-[32px] mb-4'>
                         <p>{feature.desc}</p>
                     </div>
                 </div>
@@ -27,9 +27,9 @@ const FeatureCard = ({ feature }) => {
                     <img className='w-full' src={feature.image}></img>
                 </div>
                 <div className=' mb-4'>
-                    <h3 className='text-[#56B8FC] text-[18px] lg:text-[32px] capitalize font-[700]'>{feature.title}</h3>
+                    <h3 className='text-[#56B8FC] text-[18px] text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[24px] min-[1920px]:text-[32px] capitalize font-[700]'>{feature.title}</h3>
                 </div>
-                <div className='text-[14px] lg:text-[32px] mb-4'>
+                <div className='text-[14px] text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[24px] min-[1920px]:text-[32px] mb-4'>
                     <p>{feature.desc}</p>
                 </div>
             </div>

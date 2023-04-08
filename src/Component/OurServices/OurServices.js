@@ -54,10 +54,10 @@ const OurServices = () => {
       className="w-full bg-[#01112D] mt-[60px] lg:mt-[120px] px-[40px] lg:px-[110px] py-[84px]"
     >
       <div className="flex flex-col justify-center items-center">
-        <div className="text-[24px] lg:text-[58px] text-[#56B8FC] text-center font-[700] mb-[12px]">
+        <div className="text-[18px] xl:text-[28px] 2xl:text-[32px] min-[1920px]:text-[58px] text-[#56B8FC] text-center font-[700] mb-[12px]">
           <h2 className="capitalize">Our Services</h2>
         </div>
-        <div className="text-[14px] lg:text-[24px] text-[#ffffff] text-center leading-[36px] tracking-[0.8px] mt-[12px] mb-[67px] max-w-[1438px]">
+        <div className="text-[14px] xl:text-[16px] 2xl:text-[20px] min-[1920px]:text-[24px] text-[#ffffff] text-center leading-[36px] tracking-[0.8px] mt-[12px] mb-[67px] max-w-[1438px]">
           <p>
             At KMT Consulting we take a phased approach, investing time and
             resources in every step to ensure the strategy rollout is optimized
@@ -73,7 +73,7 @@ const OurServices = () => {
 
           {
             services.map((service) => {
-              return <AnimationOnScroll animateOnce={true} animateIn={`${service.id===1 ? 'animate__backInLeft': (service.id===2) ? 'animate__backInUp' : 'animate__backInRight' } `} key={service.id} className="xl:my-0 my-[20px] 2xl:w-[565px] 2xl:h-[688px] xl:w-[500px] xl:h-[650px] w-full h-auto bg-[#293750] relative top-0 left-0 right-0">
+              return <AnimationOnScroll animateOnce={true} animateIn={`${service.id===1 ? 'animate__backInLeft': (service.id===2) ? 'animate__backInUp' : 'animate__backInRight' } `} key={service.id} className="xl:my-0 my-[20px] min-[1920px]:w-[565px] min-[1920px]:h-[688px] 2xl:w-[500px] 2xl:h-[650px] w-full h-auto bg-[#293750] relative top-0 left-0 right-0">
                 <AnimationOnScroll animateOnce={true} animateIn="animate__zoomIn" delay={600}>
                 {
                   service.id === 1 && <div className="xl:block hidden before:content-[''] before:absolute before:top-[-10px] before:right-0 before:-z-5 before:w-[50%] before:h-[6px] before:bg-[#56B8FC] ">
