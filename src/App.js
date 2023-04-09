@@ -17,6 +17,7 @@ import Details from './Component/Details/Details';
 function App() {
   return (
     <div className="App">
+
       <Header />
       <Details />
       <Consulting />
